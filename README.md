@@ -48,7 +48,7 @@ The Raft log and stable state are persisted using BoltDB. FSM snapshots are writ
 
 ```bash
 git clone https://github.com/PranavPipariya/ConsensusKV.git
-cd distributed-kv-store
+cd ConsensusKV
 go mod tidy
 go build -o kvnode main.go
 ```
